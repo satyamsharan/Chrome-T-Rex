@@ -4,14 +4,14 @@ import cv2
 import time
 from getkeys import key_check
 
-file = open("G://Works//Chrome T-rex//counter.txt", 'r')
+file = open("/Users/satyam.sharan/Works/Workspaces/Python/chrome_Trex/counter.txt", 'r')
 items = file.readlines()
 file.close()
 counter = []
 counter = list(map(int, items))
 print(counter)
 
-path = 'G://Works//Chrome T-rex//data//'
+path = '/Users/satyam.sharan/Works/Workspaces/Python/chrome_Trex/data'
 
 up = 38
 down = 40
@@ -43,7 +43,7 @@ while True:
         cv2.destroyAllWindows()
         break
 
-file = open("G://Works//Chrome T-rex//counter.txt", 'w')
+file = open("/Users/satyam.sharan/Works/Workspaces/Python/chrome_Trex/counter.txt", 'w')
 for ch in counter:
     print(ch)
     file.write(str(ch) + "\n")

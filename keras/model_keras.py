@@ -10,7 +10,7 @@ from keras import utils
 # dimensions of our images.
 img_width, img_height = 340, 340
 
-train_data_dir = 'G:/Works/Chrome T-rex/data'
+train_data_dir = '/Users/satyam.sharan/Works/Workspaces/Python/chrome_Trex/data'
 #validation_data_dir = 'data/validation'
 nb_train_samples = 768
 #nb_validation_samples = 800
