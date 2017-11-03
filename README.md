@@ -1,4 +1,4 @@
-# chrome_Trex
+# Chrome-T-Rex
 
 This program automates the Google Chrome Trex game.
 You can use this URL for collecting data and testing.
